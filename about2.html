@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Andrew Daly | About</title>
+<link href="style/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+<div class="navigation">
+		<a href="ar.html">AR</a>
+		<a class="active" href="about2.html">ABOUT</a>
+	<a href="index.html">HOME</a>
+	<a href="photography.html">PHOTOS</a>
+	<a href="survey.html">SURVEY</a>
+	<br />
+	<div id="modeswitch">
+		<a href="about2black.html">Night Mode (black)</a>
+	</div>
+	</div>
+	<div id="aboutme"><h1>ABOUT ME</h1></div>
+	<div id="about1">
+	<p>I am currently a student enrolled at the University of Illinois at Urbana-Champaign. Growing up, I have always been interested in technology and media, and hope to find a career that in that field that I thouroughly enjoy.
+		 I've done freelance graphic design and photography (mainly as hobbies) but I hope to sharpen and hone my skills throughout my time at the university.</p>
+         <p><b>Things I do in my free time:</b>
+             <ul>
+                    <li>Listen to music | Rock and instrumental</li>
+                    <li>Play video games | Currently playing Sea of Thieves and League of Legends</li>
+             </ul>
+</p>
+<p><b>Fun facts about me:</b>
+    <ul>
+            <li>I have a beautiful girlfriend named Serenity!</li>
+            <li>I also have a black cat named Marley whom I love</li>
+            <li>Irish, Italian, Greek, and Czech</li>
+            <li>First game I played was My Disney Kitchen on my uncle's computer. It's what got me into gaming/technology</li>
+    </ul>
+
+
+
+	</div>
+	
+	
+	
+	</p>
+	<div id="selfport"><figure></figure>
+	<img src="images/selfportrait.png" class="mySlides" width="550" height="400" alt="SelfPortrait">
+</figure>
+<figcaption>Here is a self portrait I made! Done in Photoshop</figcaption>
+</div>
+
+
+
+<h2>Some pictures of my computer setup at home. I have modified it over the past 6 years!</h2>
+
+<div  class="photoslides">
+	<img src="images/pc1.jpg" width="600" height="400">
+</div>
+
+<div  class="photoslides">
+	<img src="images/pc3.jpg" width="550" height="400">
+</div>
+<div  class="photoslides">
+	<img src="images/pc4.jpg" width="550" height="400">
+</div>
+<div  class="photoslides">
+	<img src="images/pc5.jpg" width="550" height="400">
+</div>
+<div  class="photoslides">
+	<img src="images/pc6.jpg" width="550" height="400">
+</div>
+
+<div id="button">
+		<button class="buttonsize" onclick="plusDivs(-1)">&#10094;</button>
+<button width="100px" height="100px" class="buttonsize" onclick="plusDivs(+1)">&#10095;</button>
+</div>
+
+
+<script>var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+	showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+	var i;
+	var x = document.getElementsByClassName("photoslides");
+	if (n > x.length) {slideIndex = 1} 
+	if (n < 1) {slideIndex = x.length} ;
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none"; 
+	}
+	x[slideIndex-1].style.display = "block"; 
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="social">
+		
+		<a href="https://www.facebook.com/profile.php?id=100012623654002" target="_blank"><img src="images/social-facebook.png" class="facebook" alt="My Facebook Page"></a>
+			
+			<a href="https://www.youtube.com/channel/UCQGdW3XwBUHn4QVczG2RySQ?view_as=subscriber" target="_blank"><img src="images/social-youtube.png" class="youtube" alt="My Youtube"></a>
+			
+			<a href="https://www.instagram.com/andydaly_/?hl=en" target="_blank"><img src="images/social-instagram.png" class="instagram" alt="My Instagram"></a>
+			
+			<a href="https://www.reddit.com/user/thenigeriansloth" target="_blank"><img src="images/social-reddit.png" class="reddit" alt="My Reddit"></a>
+	
+			
+		</div>
+	<div id="emailme">
+	<h4><i>andydaly14@gmail.com</i></h4>
+</div>
+</body>
+</html>
